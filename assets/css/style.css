@@ -1,0 +1,210 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height:1.5 ;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    background-color: #35424a;
+    color: #fff;
+    padding: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul{
+    margin: 0;
+    padding: 0px;
+
+}
+header li{
+    float: left;
+    padding: 10px;
+    display: inline;
+    padding: 0 20 0 20;
+}
+header #branding{
+    float: left;
+
+}
+header #branding h3{
+    margin: 0;
+}
+header nav{
+    margin-top: 10px;
+    float: right;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #cccc;
+    font-weight: bold;
+}
+#shocase{
+    position:center;
+    min-height: 400px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+    
+}
+#shocase h1{
+    font-size: 54px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+#shocase p{
+    font-size: 20px;
+}
+#newslatter{
+    
+    padding:10px;
+    color: #fff;
+    background: #35424a;
+    
+}
+
+#boxes{
+    padding: 20px;
+    
+}
+#boxes .box{
+    padding: 10px;
+    float: left;
+    width: 30%;
+    text-align: center;
+
+}
+#boxes .box img{
+    width: 90px;
+
+}
+#boxes .box h3{
+    
+}
+
+#newslatter .container h1{
+    text-transform: capitalize;
+    float: left;
+}
+#newslatter .container form{
+    padding-top: 20px;
+    float: right;
+}
+.container form button{
+    color: #ffffff;
+    padding-left: 4px ;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120%;
+    background:#cf6d17;
+    border: none;
+    transition: border-botton 0.001s;
+   
+}
+.container form input{
+    padding-left: 4px ;
+    padding-right: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #35424a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 120%;
+    background:#f4f4f4;
+    border: none;
+    transition: border-botton 0.001s;
+}
+footer{
+    border-top:2px solid #35424a;
+    padding: 20px;
+    color: #fff;
+    background: #e8491d;
+    text-align: center;
+
+}
+
+.wrapper {
+    display: grid;
+    width: 759px;
+    grid-template-columns: 33.3% 33.3% 33.3% 33.3% ; 
+   
+}
+.wrapper > div{
+    background: #eee;
+    padding: 1em;
+
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+#main_body .header{
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-left: 10px;
+
+}
+#main_body .text{
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+ #sidebar{
+    float: right;
+    margin-top: 57px;
+    width: 30%
+}
+#main-col{
+    float: left;
+    width: 65%;;
+}
+#service li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+#sidebar .quote input, #sidebar .quote textarea{
+    width: 90%;
+    padding: 10px;
+
+
+}
+.about{
+    padding-left: 8px;
+}
+.about .text{
+    padding-left: 8px;
+
+}
+.about .map{
+    padding-left: 8px;
+    
+
+}
